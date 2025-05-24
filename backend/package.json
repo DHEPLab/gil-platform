@@ -1,0 +1,50 @@
+{
+  "name": "health-lab-backend",
+  "version": "1.0.0",
+  "description": "Express + TypeScript backend for health lab case judgments",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "ts-node src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
+    "seed:cases": "ts-node -r tsconfig-paths/register scripts/seedCases.ts",
+    "assign:user": "ts-node -r tsconfig-paths/register scripts/assignCasesToUser.ts"
+  },
+  "keywords": [],
+  "author": "UNC DHEP Lab",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "aws-sdk": "^2.1692.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.0",
+    "pg": "^8.16.0",
+    "reflect-metadata": "^0.2.2",
+    "swagger-jsdoc": "^6.2.8",
+    "typeorm": "^0.3.24"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/json2csv": "^5.0.7",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/morgan": "^1.9.9",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.15.21",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3"
+  }
+}
