@@ -74,7 +74,7 @@ npm run dev                     # starts on localhost:5001
 cd frontend
 cp .env.local.example .env.local
 # Set NEXT_PUBLIC_API_URL=http://localhost:5001/api
-npm install
+npm install --legacy-peer-deps # IMPORTANT: Shadcn UI requires this
 npm run dev   # starts on localhost:3000
 ```
 
