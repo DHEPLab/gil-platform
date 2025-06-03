@@ -2,6 +2,10 @@
 
 A full‐stack platform for refining large-language models in primary-care diagnostics using expert feedback. Licensed clinicians review patient vignettes (real vs. synthetic) to train and evaluate AI, with a responsive Next.js frontend and an Express + TypeScript backend.
 
+<p align="center">
+  <img src="docs/img/home.png" alt="GIL-DHEP App UI" width="100%">
+</p>
+
 ---
 
 ## 📁 Repository Structure
@@ -42,7 +46,8 @@ A full‐stack platform for refining large-language models in primary-care diagn
 ### Prerequisites
 
 - Node.js ≥ 18
-- PostgreSQL database
+- PostgreSQL database up and running
+  - If you don't have PostgreSQL installed, go to [PostgreSQL Downloads](https://www.postgresql.org/download/) and follow the instructions for your OS.
 - AWS S3 bucket for avatar storage
 - `NEXT_PUBLIC_API_URL` pointing to backend (e.g. `http://localhost:5001/api`)
 
