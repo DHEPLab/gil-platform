@@ -192,5 +192,3 @@ Full schemas and examples are in Swagger UI.
 MIT Licence © UNC DHEP Lab
 
 ---
-
-Feel free to reach out with any questions or suggestions!
