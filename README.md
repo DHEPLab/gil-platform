@@ -6,6 +6,9 @@ A full‐stack platform for refining large-language models in primary-care diagn
   <img src="docs/img/home.png" alt="GIL-DHEP App UI" width="100%">
 </p>
 
+> [!NOTE]
+> This project is currently in development and not yet deployed!
+
 ---
 
 ## 📁 Repository Structure
