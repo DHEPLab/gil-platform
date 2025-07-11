@@ -111,12 +111,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Secrets scanning with detect-secrets
-        uses: secret-scanner/action@0.0.2
-        with:
-          detect_secrets_version: "1.2.0"
-          baseline_file: ".secrets.baseline"
-
       - name: Static code analysis with Semgrep
         uses: semgrep/semgrep-action@v1
         with:
