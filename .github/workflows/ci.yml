@@ -111,6 +111,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Secret scanning with TruffleHog
+        uses: trufflesecurity/trufflehog-action@v2
+
       - name: Static code analysis with Semgrep
         uses: semgrep/semgrep-action@v1
         with:
