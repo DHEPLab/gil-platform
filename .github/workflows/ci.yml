@@ -112,7 +112,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Secrets scanning with detect-secrets
-        uses: secret-scanner/action@v1
+        uses: secret-scanner/action@0.0.2
         with:
           detect_secrets_version: "1.2.0"
           baseline_file: ".secrets.baseline"
