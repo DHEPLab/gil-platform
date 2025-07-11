@@ -197,6 +197,6 @@ Full schemas and examples are in Swagger UI.
 
 ## 📄 License
 
-MIT Licence © UNC DHEP Lab
+MIT License © UNC DHEP Lab. See [LICENSE](LICENSE) for more details.
 
 ---
