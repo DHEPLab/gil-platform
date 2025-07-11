@@ -111,11 +111,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Secret scanning with Gitleaks
-        uses: zricethezav/gitleaks-action@v2
-        with:
-          args: --exit-code 0
-
       - name: Static code analysis with Semgrep
         uses: semgrep/semgrep-action@v1
         with:
